@@ -1,0 +1,31 @@
+{
+  "name": "hs",
+  "version": "0.0.1",
+  "description": "A limited HTTP server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --use-strict try"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arrowrowe/hs.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Bot"
+  ],
+  "author": "arrowrowe <arrowrowe@gmail.com> (https://github.com/arrowrowe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arrowrowe/hs/issues"
+  },
+  "homepage": "https://github.com/arrowrowe/hs#readme",
+  "devDependencies": {
+    "ava": "0.14.0",
+    "eslint": "2.10.2"
+  },
+  "dependencies": {
+    "bluebird": "3.4.0",
+    "github-api": "1.3.0"
+  }
+}
